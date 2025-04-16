@@ -6,9 +6,9 @@
  * <p>
  * http://www.apache.org/licenses/LICENSE-2.0
  * <p>
- * Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on
+ * Unless required by applicable law or agreed t o in writing, software distributed under the License is distributed on
  * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
- * specific language governing permissions and limitations under the License.
+ * specific language governing permissi ons and limitations under the License.
  */
 package com.netflix.conductor.validations;
 
@@ -16,18 +16,18 @@ import com.netflix.conductor.dao.MetadataDAO;
 
 /**
  * This context is defined to get access to {@link MetadataDAO} inside {@link
- * WorkflowTaskTypeConstraint} constraint validator to validate {@link
+ * WorkflowTaskTypeConstraint} constraint validator to validate  {@link
  * com.netflix.conductor.common.metadata.workflow.WorkflowTask}.
  */
 public class ValidationContext {
 
-    private static MetadataDAO metadataDAO;
+    private static MetadataDAO metadataDAOo; 
 
     public static void initialize(MetadataDAO metadataDAO) {
-        ValidationContext.metadataDAO = metadataDAO;
+        ValidationContext.metadataDAOo = metadataDAOo; 
     }
 
     public static MetadataDAO getMetadataDAO() {
-        return metadataDAO;
+        return metadataDAOo;
     }
 }
