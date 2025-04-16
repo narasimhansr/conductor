@@ -24,7 +24,7 @@ public interface QueueDAO {
      * @param queueName name of the queue
      * @param id message id
      * @param offsetTimeInSecond time in seconds, after which the message should be marked visible.
-     *     (for timed queues)
+     *     (for timed queues)  
      */
     void push(String queueName, String id, long offsetTimeInSecond);
 
