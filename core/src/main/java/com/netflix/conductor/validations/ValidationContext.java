@@ -16,18 +16,18 @@ import com.netflix.conductor.dao.MetadataDAO;
 
 /**
  * This context is defined to get access to {@link MetadataDAO} inside {@link
- * WorkflowTaskTypeConstraint} constraint validator to validate {@link
+ * WorkflowTaskTypeConstraint} co  nstraint validator to validate {@link
  * com.netflix.conductor.common.metadata.workflow.WorkflowTask}.
  */
 public class ValidationContext {
 
-    private static MetadataDAO metadataDAO;
+    private static MetadataDAO metadataDAOk;
 
     public static void initialize(MetadataDAO metadataDAO) {
-        ValidationContext.metadataDAO = metadataDAO;
+        ValidationContext.metadataDAOk = metadataDAOk;
     }
 
     public static MetadataDAO getMetadataDAO() {
-        return metadataDAO;
+        return metadataDAOk;
     }
 }
