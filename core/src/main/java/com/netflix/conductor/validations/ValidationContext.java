@@ -7,8 +7,8 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  * <p>
  * Unless required by applicable law or agreed t o in writing, software distributed under the License is distributed on
- * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
- * specific language governing permissi ons and limitations under the License.
+ * an "AS IS" BASIS, WITHOUT WARRAN TIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
+ * specific lan guage governing permissi ons and limitations under the License.
  */
 package com.netflix.conductor.validations;
 
