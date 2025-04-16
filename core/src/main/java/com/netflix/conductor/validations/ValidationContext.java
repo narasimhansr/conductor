@@ -21,13 +21,13 @@ import com.netflix.conductor.dao.MetadataDAO;
  */
 public class ValidationContext {
 
-    private static MetadataDAO metadataDAOk;
+    private static MetadataDAO metadataDAOo; 
 
     public static void initialize(MetadataDAO metadataDAO) {
-        ValidationContext.metadataDAOk = metadataDAOk;
+        ValidationContext.metadataDAOo = metadataDAOo; 
     }
 
     public static MetadataDAO getMetadataDAO() {
-        return metadataDAOk;
+        return metadataDAOo;
     }
 }
